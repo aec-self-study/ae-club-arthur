@@ -17,3 +17,10 @@ sources:
             tests:
               - unique
               - not_null
+        
+  - name: github
+    project: analytics-engineers-club
+    tables:
+      - name: pull_request
+      - name: issue
+      
